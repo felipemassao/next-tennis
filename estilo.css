@@ -1,3 +1,26 @@
-ul li a {
-    color: white;
+img.logo {
+    margin: 0 auto;
+    width: 20vw;
+    max-width: 100%;
 }
+
+div.area_logo {
+      background-color: #3e3e3e;
+}
+
+div.pai_sobre {
+    padding: 10px;
+    width: 100vh;
+    height: 60vh;
+    font-size: 1.2rem;
+}
+
+  
+@media (min-width: 769px){
+  
+    img.logo {
+      width: 30vh;
+    }
+  
+  
+  }
