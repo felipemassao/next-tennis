@@ -10,53 +10,97 @@ div.area_logo {
 
 div.pai_sobre {
     padding: 10px;
-    max-width: 100%;  
+    max-width: 100vw;  
     height: 35vh;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 div.detalhe_sobre_pai {
     margin: 10px auto;
+    width: 98vw;
     border: 3px solid blue;
     display: flex;
-
+    justify-content: center;
+    align-items: top;
 }
 
 
 div.detalhe_sobre_filho {
+  width: 31vw;
   padding: 5px;
   margin: 5px;
   background-color: #f8f9fa;
-  font-size: 0.8rem;
-}
- 
-.h-100 {
-  height: 100%;
+  font-size: 0.7rem;
 }
 
-.h-75 {
-  height: 75%;
+div.rodape {
+  font-size: 0.7rem;
+  width: 100vw;
+  height: 5vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.h-50 {
-  height: 50%;
-}
 
-.h-25 {
-  height: 25%;
-}
-@media (min-width: 800px){
+@media (min-width: 768px){
   
   img.logo {
     width: 30vh;
   }
-    
+  
   div.pai_sobre {
+    padding: 10px;
+    max-width: 100vw;   
+    height: 35vh;
+    font-size: 1rem;
+  }
+
+  p.sobre_titulo {
     font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+}
+
+@media (min-width: 1024px){
+
+  div.pai_sobre {
+    padding: 10px;
+    max-width: 100vw;   
+    height: 35vh;
+    font-size: 1.4rem;
+  }
+
+  p.sobre_titulo {
+    font-size: 1.8rem;
+    font-weight: bolder;
   }
 
   div.detalhe_sobre_filho {
+    width: 31vw;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    font-size: 1.4rem;
+  }
+
+  div.detalhe_sobre_filho {
+    width: 31vw;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f8f9fa;
     font-size: 1.2rem;
   }
 
+  div.rodape {
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 5vh;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
