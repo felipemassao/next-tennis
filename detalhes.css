@@ -26,22 +26,32 @@ div.detalhe_sobre_filho {
   background-color: #f8f9fa;
   font-size: 0.8rem;
 }
+.pai {
+  display: flex;
+  align-items: center;
+}
+.descricao {
+  text-align: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 img.mizuno1 {
   width: 500px;
   height: 500px;
   object-fit: cover;
 }
+div.rodape {
+  font-size: 0.7rem;
+  width: 100vw;
+  height: 5vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 800px) {
   img.logo {
     width: 30vh;
-  }
-
-  div.pai_sobre {
-    font-size: 1.2rem;
-  }
-
-  div.detalhe_sobre_filho {
-    font-size: 1.2rem;
   }
 }
