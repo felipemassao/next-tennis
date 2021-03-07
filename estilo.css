@@ -1,3 +1,5 @@
+@import url('produto.css');
+@import url('detalhes.css');
 img.logo {
     margin: 0 auto;
     width: 20vw;
