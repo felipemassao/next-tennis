@@ -31,8 +31,16 @@ div.detalhe_sobre_filho {
   align-items: center;
 }
 .descricao {
-  text-align: right;
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+em {
+  color: green;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
 }
 
 img.mizuno1 {
